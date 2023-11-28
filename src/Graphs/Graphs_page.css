@@ -1,0 +1,13 @@
+div {
+    text-align: center;
+}
+
+#Info {
+    padding-top: 17vh;
+    color:red;
+    font-size: 3vmin;
+}
+
+#Graph {
+    height: 50vh;
+}

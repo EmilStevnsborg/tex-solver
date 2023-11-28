@@ -1,0 +1,229 @@
+
+*:focus {
+    outline: none;
+    /* background-color: rgb(228, 227, 227); */
+}
+
+
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+tr {
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+td {
+    border: 1px solid rgb(78, 74, 74)
+}
+
+tr:first-child td {
+    border-top: none;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+td, input {
+    text-align: center;
+    border-left: none;
+}
+
+input {
+    width: 100%;
+    height: 100%;
+    font-size: 1.8vw;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+}
+
+
+.r_vec input {
+    font-weight:600;
+}
+
+.r_vec {
+    border-right: none;
+    border-left: 0.5vmin solid rgb(78, 74, 74);
+}
+
+div {
+    width: 100%;
+}
+
+header {
+    position: fixed;
+    z-index: 9999
+}
+
+tbody {
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+
+button {
+    border: 1px solid rgb(78, 74, 74);
+}
+
+table {
+    margin: auto;
+    margin-top: 2%;
+    width: 25vw;
+    height: 7.5vw;
+    justify-content: center;
+    table-layout: fixed;
+    margin-bottom: 2%;
+    border-collapse: collapse;
+    border: none;
+}
+
+select {
+    background-color: transparent;
+    border:0px;
+    outline:0px;
+    width: 3vw;
+    border-bottom: 1px solid rgb(78, 74, 74);
+    font-size: 1.2vw;
+    color: black;
+    cursor: pointer;
+}
+
+
+#computationSelection {
+    background-color: transparent;
+    border:0px;
+    outline:0px;
+    width: 45%;
+    font-size: 1.2vw;
+    margin: auto;
+    border-bottom: 1px solid rgb(78, 74, 74);
+    font-family: "computer modern";
+}
+
+#Computation {
+    margin: auto;
+    display: flex;
+    width: 30vw;
+    align-items: center;
+}
+
+#Computation p {
+    font-size: 2vw;
+    width: 50%;
+    margin-right: auto;
+    margin-left: 0;
+    text-align: left;
+    font-weight: 300;
+    color: rgb(72, 160, 62);
+}
+
+.Meta, #CalculationMeta {
+    text-align: center;
+    margin: auto;
+    display: flex;
+    height: 6vmin;
+    padding-top: 2%;
+    width: 30vw;
+}
+
+#MetaTop {
+    padding-top: 17vh;
+}
+
+.Selection {
+    width: 100%;
+    height: 100%;
+}
+
+.Selection button { 
+    width: calc(100%/3);
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border-right: none;
+    font-size: 2vmin;
+    transition: all 0.2s ease-in-out;
+    color: black;
+    background-color: rgb(223, 247, 221);
+}
+
+
+.Selection button:hover {
+    background-color: rgba(158, 248, 135, 0.76);
+    cursor: pointer;
+}
+
+#SelectedMat  {
+    background-color: rgb(101, 211, 89);
+}
+
+#Default.C, #SelectedMat.C {
+    border-right: 1px solid rgb(78, 74, 74);
+}
+
+.Meta .MetaItem, #CalculateBtn {
+    width: 100%;
+    height: 100%;
+    font-size: 2vmin;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Specifically for the rows and columns selection */
+.Meta .MetaItem select, .Meta .MetaItem p {
+    height: 50%;
+    font-size: 2vmin;
+    font-family: "computer modern";
+    margin: 0;
+}
+
+#CalculationMeta .Selection {
+    margin-right: calc(100%/6);
+}
+
+#CalculateBtn {
+    margin-right: calc(100%/12);
+    margin-left: calc(100%/12);
+    background-color: rgb(101, 211, 89);
+    font-weight: bolder;
+    color: white;
+}
+
+#Cancel {
+    background-color: rgb(206, 99, 80);
+    font-weight: bolder;
+    color: white;
+    border-right: none;
+}
+
+#Save {
+    background-color: rgb(255, 255, 255);
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+}
+
+#Cancel:hover {
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 2.5px 7.4px rgb(141, 42, 24);
+}
+
+#CalculateBtn:hover, #Save:hover {
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 2.5px 7.4px rgb(46, 97, 40);
+    background-color: rgb(101, 211, 89);
+    font-weight: bolder;
+    color: white;
+}
+
+
+
